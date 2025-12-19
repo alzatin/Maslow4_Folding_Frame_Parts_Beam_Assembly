@@ -24530,23 +24530,23 @@
           "ioValue": 10
         },
         {
-          "name": "Input_2",
+          "name": "BeamLength",
           "ioValue": 10
         },
         {
-          "name": "Input_3",
+          "name": "BeamHeight",
           "ioValue": 10
         },
         {
-          "name": "Input_4",
+          "name": "TabletopWidth",
           "ioValue": 10
         },
         {
-          "name": "Input_5",
+          "name": "TabletopLength",
           "ioValue": 10
         },
         {
-          "name": "Input",
+          "name": "BeamAssembly",
           "ioValue": 10
         }
       ],
@@ -24566,7 +24566,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -1348.7172864916463
+              "ioValue": -1256.8074519550592
             },
             {
               "name": "yDist",
@@ -24619,25 +24619,25 @@
             },
             {
               "name": "y",
-              "ioValue": 129.71728649164632
+              "ioValue": 37.807451955059044
             }
           ],
           "currentEquation": "-.5*x -  y"
         },
         {
           "atomType": "Equation",
-          "x": 0.5758899676375405,
-          "y": 0.6243648960739029,
+          "x": 0.551779935275081,
+          "y": 0.581986143187067,
           "uniqueID": "id-47664",
           "name": "atan(x/y) -.03",
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 4
+              "ioValue": 10
             },
             {
               "name": "y",
-              "ioValue": 8
+              "ioValue": 10
             }
           ],
           "currentEquation": "atan(x/y) -.03"
@@ -24651,7 +24651,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 0.4336476090008061
+              "ioValue": 0.7553981633974483
             }
           ],
           "currentEquation": "x * 180/ pi"
@@ -24665,11 +24665,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 57.150000000000006
+              "ioValue": 30
             },
             {
               "name": "y",
-              "ioValue": 0.4336476090008061
+              "ioValue": 0.7553981633974483
             }
           ],
           "currentEquation": ".5*x* tan(.5*pi - y)"
@@ -24683,11 +24683,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 57.150000000000006
+              "ioValue": 30
             },
             {
               "name": "y",
-              "ioValue": 0.4336476090008061
+              "ioValue": 0.7553981633974483
             }
           ],
           "currentEquation": ".5*x / (cos(.5*pi - y))"
@@ -24701,11 +24701,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 61.71129624572775
+              "ioValue": 15.928122116848128
             },
             {
               "name": "y",
-              "ioValue": 68.00599024591857
+              "ioValue": 21.879329838210918
             }
           ],
           "currentEquation": "x + y"
@@ -24719,7 +24719,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 19.05
+              "ioValue": 10
             }
           ],
           "currentEquation": "3*x"
@@ -24757,7 +24757,7 @@
           "x": 0.01815,
           "y": 0.34447113163972287,
           "uniqueID": "id-47715",
-          "name": "Input_2",
+          "name": "BeamLength",
           "type": "number"
         },
         {
@@ -24765,7 +24765,7 @@
           "x": 0.01815,
           "y": 0.4104711316397229,
           "uniqueID": "id-47718",
-          "name": "Input_3",
+          "name": "BeamHeight",
           "type": "number"
         },
         {
@@ -24773,7 +24773,7 @@
           "x": 0.01815,
           "y": 0.4764711316397229,
           "uniqueID": "id-47721",
-          "name": "Input_4",
+          "name": "TabletopWidth",
           "type": "number"
         },
         {
@@ -24781,15 +24781,16 @@
           "x": 0.01815,
           "y": 0.5424711316397228,
           "uniqueID": "id-47724",
-          "name": "Input_5",
+          "name": "TabletopLength",
           "type": "number"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.6084711316397229,
+          "y": 0.21478060046189376,
           "uniqueID": "id-47727",
-          "type": "number"
+          "name": "BeamAssembly",
+          "type": "geometry"
         }
       ],
       "allConnectors": [
@@ -24852,6 +24853,31 @@
           "ap2Name": "x",
           "ap1ID": "id-47669",
           "ap2ID": "id-47667"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-47670",
+          "ap2ID": "id-47658"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-47713",
+          "ap2ID": "id-47669"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-47721",
+          "ap2ID": "id-47664"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-47724",
+          "ap2ID": "id-47664"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-47727",
+          "ap2ID": "id-47660"
         }
       ],
       "fileTypeVersion": 1
