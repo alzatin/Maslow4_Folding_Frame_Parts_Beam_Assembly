@@ -19,7 +19,7 @@
     },
     {
       "name": "TopHeight",
-      "ioValue": 450
+      "ioValue": 600
     },
     {
       "name": "LegWidth",
@@ -3651,7 +3651,7 @@
         },
         {
           "name": "TopHeight",
-          "ioValue": 450
+          "ioValue": 600
         },
         {
           "name": "LegWidth",
@@ -3706,7 +3706,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 450
+              "ioValue": 600
             },
             {
               "name": "y length",
@@ -3722,7 +3722,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 530
+              "ioValue": 680
             },
             {
               "name": "y length",
@@ -3738,7 +3738,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 450
+              "ioValue": 600
             },
             {
               "name": "y length",
@@ -3975,7 +3975,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 450
+              "ioValue": 600
             }
           ],
           "currentEquation": "x *.5"
@@ -3989,7 +3989,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 450
+              "ioValue": 600
             },
             {
               "name": "y",
@@ -4042,7 +4042,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 225
+              "ioValue": 300
             },
             {
               "name": "yDist",
@@ -4063,7 +4063,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 530
+              "ioValue": 680
             }
           ],
           "currentEquation": "x * .5"
@@ -4076,7 +4076,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 265
+              "ioValue": 340
             },
             {
               "name": "yDist",
@@ -4096,7 +4096,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 225
+              "ioValue": 300
             },
             {
               "name": "yDist",
@@ -4137,7 +4137,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 450
+              "ioValue": 600
             },
             {
               "name": "y",
@@ -4158,7 +4158,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -260.8918542133544
+              "ioValue": -410.8918542133544
             },
             {
               "name": "yDist",
@@ -4265,7 +4265,7 @@
             },
             {
               "name": "z",
-              "ioValue": 450
+              "ioValue": 600
             }
           ],
           "currentEquation": "-x +y -z"
@@ -4282,7 +4282,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -327
+              "ioValue": -477
             },
             {
               "name": "zDist",
@@ -8342,8 +8342,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.07982740021574973,
-      "y": 0.9260969976905312,
+      "x": 0.08360302049622438,
+      "y": 0.9191685912240185,
       "uniqueID": "id-7583",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-b",
       "ioValues": [
@@ -11829,8 +11829,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.12189859762675297,
-      "y": 0.9260969976905312,
+      "x": 0.11704422869471412,
+      "y": 0.9191685912240185,
       "uniqueID": "id-8156",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-c",
       "ioValues": [
@@ -15316,8 +15316,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.15372168284789645,
-      "y": 0.9376443418013856,
+      "x": 0.15210355987055016,
+      "y": 0.9422632794457275,
       "uniqueID": "id-8729",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-d",
       "ioValues": [
