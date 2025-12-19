@@ -24566,15 +24566,15 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -1256.8074519550592
+              "ioValue": -42.807451955059044
             },
             {
               "name": "yDist",
-              "ioValue": 101.5
+              "ioValue": 5
             },
             {
               "name": "zDist",
-              "ioValue": -28.575000000000003
+              "ioValue": -15
             }
           ]
         },
@@ -24587,7 +24587,7 @@
           "ioValues": [
             {
               "name": "z",
-              "ioValue": 19.05
+              "ioValue": 10
             }
           ],
           "currentEquation": "-3*z/2"
@@ -24601,7 +24601,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 203
+              "ioValue": 10
             }
           ],
           "currentEquation": "y/2"
@@ -24615,7 +24615,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 2438
+              "ioValue": 10
             },
             {
               "name": "y",
@@ -24863,6 +24863,21 @@
           "ap2Name": "x",
           "ap1ID": "id-47713",
           "ap2ID": "id-47669"
+        },
+        {
+          "ap2Name": "z",
+          "ap1ID": "id-47713",
+          "ap2ID": "id-47661"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-47715",
+          "ap2ID": "id-47663"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-47718",
+          "ap2ID": "id-47662"
         },
         {
           "ap2Name": "x",
