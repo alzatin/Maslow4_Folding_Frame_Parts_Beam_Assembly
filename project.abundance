@@ -423,6 +423,72 @@
       "currentEquation": "1.5* z"
     },
     {
+      "atomType": "Move",
+      "x": 0.8058252427184466,
+      "y": 0.5912240184757506,
+      "uniqueID": "id-44492",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": -1266.824797662904
+        },
+        {
+          "name": "yDist",
+          "ioValue": 101.5
+        },
+        {
+          "name": "zDist",
+          "ioValue": -28.575000000000003
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7243797195253505,
+      "y": 0.5150115473441108,
+      "uniqueID": "id-44498",
+      "name": "-3*z/2",
+      "ioValues": [
+        {
+          "name": "z",
+          "ioValue": 19.05
+        }
+      ],
+      "currentEquation": "-3*z/2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7259978425026968,
+      "y": 0.6189376443418013,
+      "uniqueID": "id-44502",
+      "name": "y/2",
+      "ioValues": [
+        {
+          "name": "y",
+          "ioValue": 203
+        }
+      ],
+      "currentEquation": "y/2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7335490830636462,
+      "y": 0.7621247113163973,
+      "uniqueID": "id-44509",
+      "name": "-.5*x -  y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 2438
+        },
+        {
+          "name": "y",
+          "ioValue": 47.824797662904004
+        }
+      ],
+      "currentEquation": "-.5*x -  y"
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.18284789644012944,
       "y": 0.7297921478060047,
@@ -24332,70 +24398,105 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Move",
-      "x": 0.8058252427184466,
-      "y": 0.5912240184757506,
-      "uniqueID": "id-44492",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": -1220
-        },
-        {
-          "name": "yDist",
-          "ioValue": 101.5
-        },
-        {
-          "name": "zDist",
-          "ioValue": -28.575000000000003
-        }
-      ]
-    },
-    {
       "atomType": "Equation",
-      "x": 0.7243797195253505,
-      "y": 0.5150115473441108,
-      "uniqueID": "id-44498",
-      "name": "-3*z/2",
-      "ioValues": [
-        {
-          "name": "z",
-          "ioValue": 19.05
-        }
-      ],
-      "currentEquation": "-3*z/2"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.7259978425026968,
-      "y": 0.6189376443418013,
-      "uniqueID": "id-44502",
-      "name": "y/2",
-      "ioValues": [
-        {
-          "name": "y",
-          "ioValue": 203
-        }
-      ],
-      "currentEquation": "y/2"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.7335490830636462,
-      "y": 0.7621247113163973,
-      "uniqueID": "id-44509",
-      "name": "-.5*x -  y",
+      "x": 0.5258899676375405,
+      "y": 0.6743648960739029,
+      "uniqueID": "id-47627",
+      "name": "atan(x/y) -.03",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 2438
+          "ioValue": 8
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 4
         }
       ],
-      "currentEquation": "-.5*x -  y"
+      "currentEquation": "atan(x/y) -.03"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5318230852211435,
+      "y": 0.8013856812933026,
+      "uniqueID": "id-47628",
+      "name": "x * 180/ pi",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1.0771487177940904
+        }
+      ],
+      "currentEquation": "x * 180/ pi"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6062567421790723,
+      "y": 0.6166281755196305,
+      "uniqueID": "id-47629",
+      "name": ".5*x* tan(.5*pi - y)",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 57.150000000000006
+        },
+        {
+          "name": "y",
+          "ioValue": 1.0771487177940904
+        }
+      ],
+      "currentEquation": ".5*x* tan(.5*pi - y)"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6040992448759439,
+      "y": 0.7852193995381063,
+      "uniqueID": "id-47630",
+      "name": ".5*x / (cos(.5*pi - y))",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 57.150000000000006
+        },
+        {
+          "name": "y",
+          "ioValue": 1.0771487177940904
+        }
+      ],
+      "currentEquation": ".5*x / (cos(.5*pi - y))"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6618122977346278,
+      "y": 0.7967667436489608,
+      "uniqueID": "id-47631",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 15.375712165725094
+        },
+        {
+          "name": "y",
+          "ioValue": 32.44908549717891
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5372168284789643,
+      "y": 0.5311778290993071,
+      "uniqueID": "id-47646",
+      "name": "3*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.05,
+          "currentEquation": "1"
+        }
+      ],
+      "currentEquation": "3*x"
     }
   ],
   "allConnectors": [
@@ -24458,6 +24559,11 @@
       "ap2Name": "z",
       "ap1ID": "id-3910",
       "ap2ID": "id-44498"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3910",
+      "ap2ID": "id-47646"
     },
     {
       "ap2Name": "x",
@@ -24625,6 +24731,11 @@
       "ap2ID": "id-28212"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-9168",
+      "ap2ID": "id-47627"
+    },
+    {
       "ap2Name": "BoltDiameter",
       "ap1ID": "id-9170",
       "ap2ID": "id-26203"
@@ -24663,6 +24774,11 @@
       "ap2Name": "TabletopWidth",
       "ap1ID": "id-9176",
       "ap2ID": "id-28212"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-9176",
+      "ap2ID": "id-47627"
     },
     {
       "ap2Name": "Shape 11",
@@ -24745,6 +24861,26 @@
       "ap2ID": "id-15353"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-44492",
+      "ap2ID": "id-7"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-44498",
+      "ap2ID": "id-44492"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-44502",
+      "ap2ID": "id-44492"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-44509",
+      "ap2ID": "id-44492"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-25838",
       "ap2ID": "id-15347"
@@ -24775,24 +24911,44 @@
       "ap2ID": "id-9189"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-44492",
-      "ap2ID": "id-7"
+      "ap2Name": "x",
+      "ap1ID": "id-47627",
+      "ap2ID": "id-47628"
     },
     {
-      "ap2Name": "zDist",
-      "ap1ID": "id-44498",
-      "ap2ID": "id-44492"
+      "ap2Name": "y",
+      "ap1ID": "id-47627",
+      "ap2ID": "id-47629"
     },
     {
-      "ap2Name": "yDist",
-      "ap1ID": "id-44502",
-      "ap2ID": "id-44492"
+      "ap2Name": "y",
+      "ap1ID": "id-47627",
+      "ap2ID": "id-47630"
     },
     {
-      "ap2Name": "xDist",
-      "ap1ID": "id-44509",
-      "ap2ID": "id-44492"
+      "ap2Name": "x",
+      "ap1ID": "id-47629",
+      "ap2ID": "id-47631"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-47630",
+      "ap2ID": "id-47631"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-47631",
+      "ap2ID": "id-44509"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-47646",
+      "ap2ID": "id-47629"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-47646",
+      "ap2ID": "id-47630"
     }
   ],
   "unitsKey": "MM",
