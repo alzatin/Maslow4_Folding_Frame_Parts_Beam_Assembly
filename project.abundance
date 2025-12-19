@@ -2018,8 +2018,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.18338727076591155,
-      "y": 0.7713625866050808,
+      "x": 0.18284789644012944,
+      "y": 0.7297921478060047,
       "uniqueID": "id-1423",
       "name": "Maslow4_Folding_Frame_Parts_anchor_tower",
       "ioValues": [
@@ -15316,8 +15316,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.1871628910463862,
-      "y": 0.930715935334873,
+      "x": 0.15372168284789645,
+      "y": 0.9376443418013856,
       "uniqueID": "id-8729",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-d",
       "ioValues": [
@@ -23882,8 +23882,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.2411003236245955,
-      "y": 0.76905311778291,
+      "x": 0.23408845738942824,
+      "y": 0.74364896073903,
       "uniqueID": "id-15347",
       "ioValues": [
         {
@@ -23903,8 +23903,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3004314994606257,
-      "y": 0.766743648960739,
+      "x": 0.29503775620280476,
+      "y": 0.7413394919168591,
       "uniqueID": "id-15353",
       "ioValues": [
         {
@@ -23917,14 +23917,14 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 28.575000000000003
         }
       ]
     },
     {
       "atomType": "Equation",
-      "x": 0.20711974110032363,
-      "y": 0.836027713625866,
+      "x": 0.1941747572815534,
+      "y": 0.8198614318706698,
       "uniqueID": "id-15359",
       "name": "-.5*x -50",
       "ioValues": [
@@ -23937,8 +23937,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.2626752966558792,
-      "y": 0.8545034642032332,
+      "x": 0.24002157497303125,
+      "y": 0.8475750577367206,
       "uniqueID": "id-15363",
       "name": "y/2",
       "ioValues": [
@@ -23948,6 +23948,20 @@
         }
       ],
       "currentEquation": "y/2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2977346278317152,
+      "y": 0.8429561200923789,
+      "uniqueID": "id-15368",
+      "name": "1.5* z",
+      "ioValues": [
+        {
+          "name": "z",
+          "ioValue": 19.05
+        }
+      ],
+      "currentEquation": "1.5* z"
     }
   ],
   "allConnectors": [
@@ -24000,6 +24014,11 @@
       "ap2Name": "WoodThick",
       "ap1ID": "id-3910",
       "ap2ID": "id-12306"
+    },
+    {
+      "ap2Name": "z",
+      "ap1ID": "id-3910",
+      "ap2ID": "id-15368"
     },
     {
       "ap2Name": "BeamLength",
@@ -24284,6 +24303,11 @@
     {
       "ap2Name": "yDist",
       "ap1ID": "id-15363",
+      "ap2ID": "id-15353"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-15368",
       "ap2ID": "id-15353"
     }
   ],
