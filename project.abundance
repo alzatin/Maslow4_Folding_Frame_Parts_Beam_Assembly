@@ -125,8 +125,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.3915857605177993,
-      "y": 0.9237875288683602,
+      "x": 0.4541531823085221,
+      "y": 0.6258660508083141,
       "uniqueID": "id-922",
       "name": "Maslow4_Folding_Frame_Parts_Leg",
       "ioValues": [
@@ -4473,8 +4473,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7270765911542612,
-      "y": 0.3187066974595843,
+      "x": 0.5685005393743258,
+      "y": 0.28868360277136257,
       "uniqueID": "id-239",
       "name": "Maslow4_Folding_Frame_Parts_Beam",
       "ioValues": [
@@ -23515,8 +23515,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6477885652642934,
-      "y": 0.17782909930715934,
+      "x": 0.5819848975188782,
+      "y": 0.15011547344110854,
       "uniqueID": "id-9179",
       "ioValues": [
         {
@@ -23554,19 +23554,23 @@
       "uniqueID": "id-9189",
       "ioValues": [
         {
-          "name": "Shape 1",
+          "name": "Shape 2",
           "ioValue": null
         },
         {
-          "name": "Shape 2",
+          "name": "Shape 4",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 5",
           "ioValue": null
         }
       ]
     },
     {
       "atomType": "Rotate",
-      "x": 0.47950377562028046,
-      "y": 0.4457274826789838,
+      "x": 0.24271844660194175,
+      "y": 0.34180138568129326,
       "uniqueID": "id-9194",
       "ioValues": [
         {
@@ -23586,13 +23590,13 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5614886731391586,
-      "y": 0.5011547344110855,
+      "x": 0.3004314994606257,
+      "y": 0.3394919168591224,
       "uniqueID": "id-9200",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 1219
         },
         {
           "name": "yDist",
@@ -23606,8 +23610,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.482200647249191,
-      "y": 0.5612009237875288,
+      "x": 0.3047464940668824,
+      "y": 0.44110854503464203,
       "uniqueID": "id-9206",
       "name": "1.5*x",
       "ioValues": [
@@ -23620,8 +23624,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.48975188781014023,
-      "y": 0.6905311778290993,
+      "x": 0.24757281553398058,
+      "y": 0.44803695150115475,
       "uniqueID": "id-9210",
       "name": "-5*x",
       "ioValues": [
@@ -23631,6 +23635,20 @@
         }
       ],
       "currentEquation": "-5*x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.18015102481121897,
+      "y": 0.44803695150115475,
+      "uniqueID": "id-9214",
+      "name": ".5*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 2438
+        }
+      ],
+      "currentEquation": ".5*x"
     }
   ],
   "allConnectors": [
@@ -23698,6 +23716,11 @@
       "ap2Name": "x",
       "ap1ID": "id-3913",
       "ap2ID": "id-9185"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3913",
+      "ap2ID": "id-9214"
     },
     {
       "ap2Name": "BeamHeight",
@@ -23795,7 +23818,7 @@
       "ap2ID": "id-9179"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "Shape 4",
       "ap1ID": "id-239",
       "ap2ID": "id-9189"
     },
@@ -23865,7 +23888,7 @@
       "ap2ID": "id-8729"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "Shape 5",
       "ap1ID": "id-9179",
       "ap2ID": "id-9189"
     },
@@ -23885,6 +23908,11 @@
       "ap2ID": "id-9200"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-9200",
+      "ap2ID": "id-9189"
+    },
+    {
       "ap2Name": "zDist",
       "ap1ID": "id-9206",
       "ap2ID": "id-9200"
@@ -23892,6 +23920,11 @@
     {
       "ap2Name": "yDist",
       "ap1ID": "id-9210",
+      "ap2ID": "id-9200"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-9214",
       "ap2ID": "id-9200"
     }
   ],
