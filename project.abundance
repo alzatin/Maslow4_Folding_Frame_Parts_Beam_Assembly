@@ -8338,8 +8338,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.1699029126213592,
-      "y": 0.9376443418013856,
+      "x": 0.10194174757281553,
+      "y": 0.9260969976905312,
       "uniqueID": "id-7583",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-b",
       "ioValues": [
@@ -11825,8 +11825,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2189859762675297,
-      "y": 0.956120092378753,
+      "x": 0.1499460625674218,
+      "y": 0.9376443418013856,
       "uniqueID": "id-8156",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-c",
       "ioValues": [
@@ -23899,17 +23899,17 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5895361380798274,
-      "y": 0.7944572748267898,
+      "x": 0.5906148867313916,
+      "y": 0.8406466512702079,
       "uniqueID": "id-15353",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -1269
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 101.5
         },
         {
           "name": "zDist",
@@ -23919,21 +23919,31 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5307443365695793,
-      "y": 0.5981524249422633,
+      "x": 0.4428263214670981,
+      "y": 0.9445727482678984,
       "uniqueID": "id-15359",
-      "name": "x + y",
+      "name": "-.5*x -50",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
+          "ioValue": 2438
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "-.5*x -50"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5296655879180151,
+      "y": 0.9607390300230947,
+      "uniqueID": "id-15363",
+      "name": "y/2",
+      "ioValues": [
+        {
+          "name": "y",
+          "ioValue": 203
+        }
+      ],
+      "currentEquation": "y/2"
     }
   ],
   "allConnectors": [
@@ -24008,6 +24018,11 @@
       "ap2ID": "id-12306"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-3913",
+      "ap2ID": "id-15359"
+    },
+    {
       "ap2Name": "BeamHeight",
       "ap1ID": "id-3916",
       "ap2ID": "id-239"
@@ -24046,6 +24061,11 @@
       "ap2Name": "BeamHeight",
       "ap1ID": "id-3916",
       "ap2ID": "id-12306"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-3916",
+      "ap2ID": "id-15363"
     },
     {
       "ap2Name": "TopHeight",
@@ -24245,6 +24265,16 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-15347",
+      "ap2ID": "id-15353"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-15359",
+      "ap2ID": "id-15353"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-15363",
       "ap2ID": "id-15353"
     }
   ],
