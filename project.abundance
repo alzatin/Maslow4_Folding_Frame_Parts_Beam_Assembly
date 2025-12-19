@@ -186,8 +186,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7464940668824164,
-      "y": 0.17090069284064663,
+      "x": 0.7481121898597627,
+      "y": 0.16859122401847573,
       "uniqueID": "id-9189",
       "ioValues": [
         {
@@ -24527,27 +24527,23 @@
       "ioValues": [
         {
           "name": "WoodThick",
-          "ioValue": 10
+          "ioValue": 19.05
         },
         {
           "name": "BeamLength",
-          "ioValue": 10
+          "ioValue": 2438
         },
         {
           "name": "BeamHeight",
-          "ioValue": 10
+          "ioValue": 203
         },
         {
           "name": "TabletopWidth",
-          "ioValue": 10
+          "ioValue": 4
         },
         {
           "name": "TabletopLength",
-          "ioValue": 10
-        },
-        {
-          "name": "BeamAssembly",
-          "ioValue": 10
+          "ioValue": 8
         }
       ],
       "topLevel": false,
@@ -24566,15 +24562,15 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -42.807451955059044
+              "ioValue": -1348.7172864916463
             },
             {
               "name": "yDist",
-              "ioValue": 5
+              "ioValue": 101.5
             },
             {
               "name": "zDist",
-              "ioValue": -15
+              "ioValue": -28.575000000000003
             }
           ]
         },
@@ -24587,7 +24583,7 @@
           "ioValues": [
             {
               "name": "z",
-              "ioValue": 10
+              "ioValue": 19.05
             }
           ],
           "currentEquation": "-3*z/2"
@@ -24601,7 +24597,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 10
+              "ioValue": 203
             }
           ],
           "currentEquation": "y/2"
@@ -24615,11 +24611,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 10
+              "ioValue": 2438
             },
             {
               "name": "y",
-              "ioValue": 37.807451955059044
+              "ioValue": 129.71728649164632
             }
           ],
           "currentEquation": "-.5*x -  y"
@@ -24633,11 +24629,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 10
+              "ioValue": 4
             },
             {
               "name": "y",
-              "ioValue": 10
+              "ioValue": 8
             }
           ],
           "currentEquation": "atan(x/y) -.03"
@@ -24651,7 +24647,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 0.7553981633974483
+              "ioValue": 0.4336476090008061
             }
           ],
           "currentEquation": "x * 180/ pi"
@@ -24665,11 +24661,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 30
+              "ioValue": 57.150000000000006
             },
             {
               "name": "y",
-              "ioValue": 0.7553981633974483
+              "ioValue": 0.4336476090008061
             }
           ],
           "currentEquation": ".5*x* tan(.5*pi - y)"
@@ -24683,11 +24679,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 30
+              "ioValue": 57.150000000000006
             },
             {
               "name": "y",
-              "ioValue": 0.7553981633974483
+              "ioValue": 0.4336476090008061
             }
           ],
           "currentEquation": ".5*x / (cos(.5*pi - y))"
@@ -24701,11 +24697,11 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 15.928122116848128
+              "ioValue": 61.71129624572775
             },
             {
               "name": "y",
-              "ioValue": 21.879329838210918
+              "ioValue": 68.00599024591857
             }
           ],
           "currentEquation": "x + y"
@@ -24719,7 +24715,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 10
+              "ioValue": 19.05
             }
           ],
           "currentEquation": "3*x"
@@ -24965,6 +24961,11 @@
       "ap2ID": "id-47646"
     },
     {
+      "ap2Name": "WoodThick",
+      "ap1ID": "id-3910",
+      "ap2ID": "id-47656"
+    },
+    {
       "ap2Name": "x",
       "ap1ID": "id-3913",
       "ap2ID": "id-9185"
@@ -24998,6 +24999,11 @@
       "ap2Name": "x",
       "ap1ID": "id-3913",
       "ap2ID": "id-44509"
+    },
+    {
+      "ap2Name": "BeamLength",
+      "ap1ID": "id-3913",
+      "ap2ID": "id-47656"
     },
     {
       "ap2Name": "y",
@@ -25053,6 +25059,11 @@
       "ap2Name": "y",
       "ap1ID": "id-3916",
       "ap2ID": "id-44502"
+    },
+    {
+      "ap2Name": "BeamHeight",
+      "ap1ID": "id-3916",
+      "ap2ID": "id-47656"
     },
     {
       "ap2Name": "TopHeight",
@@ -25135,6 +25146,11 @@
       "ap2ID": "id-47627"
     },
     {
+      "ap2Name": "TabletopLength",
+      "ap1ID": "id-9168",
+      "ap2ID": "id-47656"
+    },
+    {
       "ap2Name": "BoltDiameter",
       "ap1ID": "id-9170",
       "ap2ID": "id-26203"
@@ -25180,6 +25196,11 @@
       "ap2ID": "id-47627"
     },
     {
+      "ap2Name": "TabletopWidth",
+      "ap1ID": "id-9176",
+      "ap2ID": "id-47656"
+    },
+    {
       "ap2Name": "Shape 11",
       "ap1ID": "id-9179",
       "ap2ID": "id-9189"
@@ -25193,6 +25214,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-9189",
       "ap2ID": "id-44492"
+    },
+    {
+      "ap2Name": "BeamAssembly",
+      "ap1ID": "id-9189",
+      "ap2ID": "id-47656"
     },
     {
       "ap2Name": "geometry",
@@ -25351,7 +25377,7 @@
     },
     {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-47650",
+      "ap1ID": "id-47656",
       "ap2ID": "id-7"
     }
   ],
