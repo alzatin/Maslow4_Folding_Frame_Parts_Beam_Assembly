@@ -27,7 +27,8 @@
     },
     {
       "name": "LegAngle",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
       "name": "BitDiameter",
