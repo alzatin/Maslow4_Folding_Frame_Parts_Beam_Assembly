@@ -24169,15 +24169,15 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -76.1875
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 102.5
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": -19
         }
       ]
     },
@@ -24186,8 +24186,40 @@
       "x": 0.5528586839266451,
       "y": 0.8244803695150116,
       "uniqueID": "id-38212",
-      "name": "-19",
-      "value": 10
+      "name": "half2by4",
+      "value": -19
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4886731391585761,
+      "y": 0.9145496535796767,
+      "uniqueID": "id-38214",
+      "name": "-x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 152.375
+        }
+      ],
+      "currentEquation": "-x/2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7162891046386192,
+      "y": 0.6420323325635103,
+      "uniqueID": "id-38218",
+      "name": ".5*x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 203
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": ".5*x + y"
     }
   ],
   "allConnectors": [
@@ -24320,6 +24352,11 @@
       "ap2Name": "BeamHeight",
       "ap1ID": "id-3916",
       "ap2ID": "id-35106"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3916",
+      "ap2ID": "id-38218"
     },
     {
       "ap2Name": "TopHeight",
@@ -24552,11 +24589,30 @@
       "ap2ID": "id-38181"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-38196",
+      "ap2ID": "id-38214"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-38200",
       "ap2ID": "id-38206"
     },
-    null
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-38212",
+      "ap2ID": "id-38206"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-38214",
+      "ap2ID": "id-38206"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-38218",
+      "ap2ID": "id-38206"
+    }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
