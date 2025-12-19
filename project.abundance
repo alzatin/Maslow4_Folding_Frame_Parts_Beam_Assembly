@@ -205,6 +205,10 @@
         {
           "name": "Shape 8",
           "ioValue": null
+        },
+        {
+          "name": "Shape 9",
+          "ioValue": null
         }
       ]
     },
@@ -2014,8 +2018,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.3861920172599784,
-      "y": 0.8175519630484989,
+      "x": 0.18338727076591155,
+      "y": 0.7713625866050808,
       "uniqueID": "id-1423",
       "name": "Maslow4_Folding_Frame_Parts_anchor_tower",
       "ioValues": [
@@ -8338,7 +8342,7 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.10194174757281553,
+      "x": 0.07982740021574973,
       "y": 0.9260969976905312,
       "uniqueID": "id-7583",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-b",
@@ -11825,8 +11829,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.1499460625674218,
-      "y": 0.9376443418013856,
+      "x": 0.12189859762675297,
+      "y": 0.9260969976905312,
       "uniqueID": "id-8156",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-c",
       "ioValues": [
@@ -15312,8 +15316,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.27993527508090615,
-      "y": 0.951501154734411,
+      "x": 0.1871628910463862,
+      "y": 0.930715935334873,
       "uniqueID": "id-8729",
       "name": "Maslow4_Folding_Frame_Parts_hinge_stack-d",
       "ioValues": [
@@ -23878,8 +23882,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.4832793959007552,
-      "y": 0.838337182448037,
+      "x": 0.2411003236245955,
+      "y": 0.76905311778291,
       "uniqueID": "id-15347",
       "ioValues": [
         {
@@ -23899,8 +23903,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5906148867313916,
-      "y": 0.8406466512702079,
+      "x": 0.3004314994606257,
+      "y": 0.766743648960739,
       "uniqueID": "id-15353",
       "ioValues": [
         {
@@ -23919,8 +23923,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.4428263214670981,
-      "y": 0.9445727482678984,
+      "x": 0.20711974110032363,
+      "y": 0.836027713625866,
       "uniqueID": "id-15359",
       "name": "-.5*x -50",
       "ioValues": [
@@ -23933,8 +23937,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5296655879180151,
-      "y": 0.9607390300230947,
+      "x": 0.2626752966558792,
+      "y": 0.8545034642032332,
       "uniqueID": "id-15363",
       "name": "y/2",
       "ioValues": [
@@ -24266,6 +24270,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-15347",
       "ap2ID": "id-15353"
+    },
+    {
+      "ap2Name": "Shape 9",
+      "ap1ID": "id-15353",
+      "ap2ID": "id-9189"
     },
     {
       "ap2Name": "xDist",
