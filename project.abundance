@@ -49,6 +49,10 @@
     {
       "name": "TabletopWidth",
       "ioValue": 4
+    },
+    {
+      "name": "LegFromCenter",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -23535,8 +23539,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.48759439050701187,
-      "y": 0.10161662817551963,
+      "x": 0.4811218985976267,
+      "y": 0.09237875288683603,
       "uniqueID": "id-9185",
       "name": "-x/2",
       "ioValues": [
@@ -23600,11 +23604,11 @@
         },
         {
           "name": "yDist",
-          "ioValue": -95.25
+          "ioValue": -5
         },
         {
           "name": "zDist",
-          "ioValue": 28.575000000000003
+          "ioValue": 1.5
         }
       ]
     },
@@ -23613,28 +23617,28 @@
       "x": 0.3047464940668824,
       "y": 0.44110854503464203,
       "uniqueID": "id-9206",
-      "name": "1.5*x",
+      "name": "1.5*z",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 19.05
+          "name": "z",
+          "ioValue": 1
         }
       ],
-      "currentEquation": "1.5*x"
+      "currentEquation": "1.5*z"
     },
     {
       "atomType": "Equation",
-      "x": 0.24757281553398058,
-      "y": 0.44803695150115475,
+      "x": 0.24487594390507011,
+      "y": 0.6166281755196305,
       "uniqueID": "id-9210",
-      "name": "-5*x",
+      "name": "-5*y",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 19.05
+          "name": "y",
+          "ioValue": 1
         }
       ],
-      "currentEquation": "-5*x"
+      "currentEquation": "-5*y"
     },
     {
       "atomType": "Equation",
@@ -23649,6 +23653,48 @@
         }
       ],
       "currentEquation": ".5*x"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.8360000000000003,
+      "uniqueID": "id-9221",
+      "name": "LegFromCenter",
+      "type": "number"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6256742179072277,
+      "y": 0.5473441108545035,
+      "uniqueID": "id-9224",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 10
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5512405609492989,
+      "y": 0.7297921478060047,
+      "uniqueID": "id-9236",
+      "name": "x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 4
+        }
+      ],
+      "currentEquation": "x/2"
     }
   ],
   "allConnectors": [
@@ -23691,16 +23737,6 @@
       "ap2Name": "WoodThick",
       "ap1ID": "id-3910",
       "ap2ID": "id-8729"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-3910",
-      "ap2ID": "id-9206"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-3910",
-      "ap2ID": "id-9210"
     },
     {
       "ap2Name": "BeamLength",
@@ -23926,6 +23962,11 @@
       "ap2Name": "xDist",
       "ap1ID": "id-9214",
       "ap2ID": "id-9200"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-9221",
+      "ap2ID": "id-9224"
     }
   ],
   "unitsKey": "MM",
