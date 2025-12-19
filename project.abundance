@@ -23562,6 +23562,75 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.47950377562028046,
+      "y": 0.4457274826789838,
+      "uniqueID": "id-9194",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": -90,
+          "currentEquation": "-90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5614886731391586,
+      "y": 0.5011547344110855,
+      "uniqueID": "id-9200",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -95.25
+        },
+        {
+          "name": "zDist",
+          "ioValue": 28.575000000000003
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.482200647249191,
+      "y": 0.5612009237875288,
+      "uniqueID": "id-9206",
+      "name": "1.5*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.05
+        }
+      ],
+      "currentEquation": "1.5*x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.48975188781014023,
+      "y": 0.6905311778290993,
+      "uniqueID": "id-9210",
+      "name": "-5*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.05
+        }
+      ],
+      "currentEquation": "-5*x"
     }
   ],
   "allConnectors": [
@@ -23604,6 +23673,16 @@
       "ap2Name": "WoodThick",
       "ap1ID": "id-3910",
       "ap2ID": "id-8729"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3910",
+      "ap2ID": "id-9206"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3910",
+      "ap2ID": "id-9210"
     },
     {
       "ap2Name": "BeamLength",
@@ -23721,6 +23800,11 @@
       "ap2ID": "id-9189"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7010",
+      "ap2ID": "id-9194"
+    },
+    {
       "ap2Name": "TabletopLength",
       "ap1ID": "id-9168",
       "ap2ID": "id-7010"
@@ -23794,6 +23878,21 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-9189",
       "ap2ID": "id-7"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-9194",
+      "ap2ID": "id-9200"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-9206",
+      "ap2ID": "id-9200"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-9210",
+      "ap2ID": "id-9200"
     }
   ],
   "unitsKey": "MM",
